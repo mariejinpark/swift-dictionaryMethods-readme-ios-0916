@@ -38,6 +38,8 @@ var movies = [
     "The Fast and the Furious": fastAndFuriousFilms
 ]
 
+// [String : [String]]
+
 let godfatherFilms = [
     "The Godfather",
     "The Godfather Part II",
@@ -63,6 +65,9 @@ if let godfatherMovies = movies["The Godfather"] {
 
 
 // MODIFYING VALUES
+
+if var films = fastAndFuriousFilms.append("")
+
 
 if var films = movies["The Fast and the Furious"] {
     films.append("Faster! 9")
@@ -149,3 +154,4 @@ let allTheMoons = Array(planetsAndTheirMoons.values)
 for numberOfMoons in planetsAndTheirMoons.values {
     print(numberOfMoons)
 }
+//
